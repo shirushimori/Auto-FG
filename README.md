@@ -50,8 +50,13 @@ paru -S auto-fg
 download from the [releases page](https://github.com/shirushimori/Auto-FG/releases):
 
 ```bash
+# x86_64
 chmod +x Auto-FG-x86_64.AppImage
 ./Auto-FG-x86_64.AppImage
+
+# aarch64 (arm)
+chmod +x Auto-FG-aarch64.AppImage
+./Auto-FG-aarch64.AppImage
 ```
 
 ### windows

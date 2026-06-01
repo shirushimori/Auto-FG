@@ -5,3 +5,4 @@ src/
 *.tar.gz
 *.pkg.tar.zst
 .SRCINFO
+assets/icon.png
