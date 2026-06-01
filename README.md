@@ -14,6 +14,10 @@ just a lil tool to grab fitgirl repacks from fuckingfast.co links without losing
 - **multi-part rar** — detects multi-part archives and only extracts the first part (the smart one)
 - **cli tools** — `get-links` and `download` standalone binaries if you hate guis
 
+## screenshots
+
+![screenshot](assets/imgs/screenshort.jpg)
+
 ## dependencies
 
 ### linux
