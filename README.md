@@ -37,6 +37,14 @@ Auto-FG
 
 script handles: rust install → dependencies → build → desktop shortcut. after that just run `Auto-FG` from terminal or click the desktop icon.
 
+### arch linux (aur)
+
+```bash
+yay -S auto-fg
+# or
+paru -S auto-fg
+```
+
 ### windows
 
 ```cmd

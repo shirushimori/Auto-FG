@@ -14,3 +14,11 @@ Each archive contains the compiled binaries, setup script, and README.
 **Windows:** Extract the ZIP, run `setup.bat` or launch `Ffast-auto-downloader.exe` directly.
 
 **Linux:** Extract the tarball, run `./setup.sh` or launch `./Ffast-auto-downloader` directly.
+
+### Arch Linux (AUR)
+
+```bash
+yay -S auto-fg
+```
+
+Or use your preferred AUR helper.
