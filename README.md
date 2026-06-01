@@ -22,56 +22,35 @@ just a lil tool to grab fitgirl repacks from fuckingfast.co links without losing
 ![extract](assets/img/Screenshot_Extract.png)
 ![about](assets/img/Screenshot_about.png)
 
-## dependencies
+## quick start
 
 ### linux
 
 ```bash
-# arch
-sudo pacman -S gtk3 webkit2gtk libunrar
-
-# ubuntu / debian
-sudo apt install libgtk-3-dev libwebkit2gtk-4.1-dev libunrar-dev
-
-# fedora
-sudo dnf install gtk3-devel webkit2gtk4.1-devel libunrar-devel
+git clone https://github.com/shirushimori/Auto-FG
+cd Auto-FG
+chmod +x setup.sh && ./setup.sh
+Auto-FG
 ```
+
+script handles: rust install → dependencies → build → desktop shortcut. after that just run `Auto-FG` from terminal or click the desktop icon.
 
 ### windows
 
-nothing needed, windows handles it natively.
-
-## how to install
-
-### from source
-
-```bash
-# get rust if you dont have it (https://rustup.rs)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# clone
-git clone https://github.com/shirushimori/fucking-fast-fitgirl-download-automator.git
-cd fucking-fast-fitgirl-download-automator
-
-# build and run gui
-cargo run --release
-
-# or just cli
-cargo run --release --bin get-links
-cargo run --release --bin download
-```
-
-### quick setup
-
-**linux / mac:**
-```bash
-chmod +x setup.sh
-./setup.sh
-```
-
-**windows:**
 ```cmd
+git clone https://github.com/shirushimori/Auto-FG
+cd Auto-FG
 setup.bat
+```
+
+script handles: rust install → build → start menu + desktop shortcuts. launch from start menu or desktop.
+
+### or do it manually
+
+```bash
+git clone https://github.com/shirushimori/Auto-FG
+cd Auto-FG
+cargo run --release
 ```
 
 ## how to use
