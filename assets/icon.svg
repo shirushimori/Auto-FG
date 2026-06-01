@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="40" fill="#000"/>
+  <text x="50%" y="52%"
+        font-family="JetBrains Mono, Arial, sans-serif"
+        font-size="120"
+        font-weight="700"
+        fill="#fff"
+        text-anchor="middle"
+        dominant-baseline="middle">AG</text>
+</svg>

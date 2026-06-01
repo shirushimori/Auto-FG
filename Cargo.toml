@@ -3,7 +3,7 @@ name = "fitgirl-auto-downloader-mori"
 version = "0.1.0"
 edition = "2021"
 description = "A GUI tool to automate downloading and extracting FitGirl repacks from fuckingfast.co"
-repository = "https://github.com/shirushimori/fucking-fast-fitgirl-download-automator"
+repository = "https://github.com/shirushimori/Auto-FG"
 license = "MIT"
 
 [dependencies]

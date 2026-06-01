@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Auto-FG
+Comment=Fast FitGirl repack link extraction and download automation tool
+Exec=auto-fg
+Icon=auto-fg
+Type=Application
+Categories=Game;Utility;
+Terminal=false
