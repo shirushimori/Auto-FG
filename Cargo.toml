@@ -1,0 +1,49 @@
+[package]
+name = "fitgirl-auto-downloader-mori"
+version = "0.1.0"
+edition = "2021"
+description = "A GUI tool to automate downloading and extracting FitGirl repacks from fuckingfast.co"
+repository = "https://github.com/shirushimori/fucking-fast-fitgirl-download-automator"
+license = "MIT"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking"] }
+scraper = "0.22"
+regex = "1"
+url = "2"
+chrono = "0.4"
+bs58 = "0.5"
+pbkdf2 = { version = "0.12", features = ["simple"] }
+sha2 = "0.10"
+flate2 = "1.0"
+serde_json = "1"
+aes-gcm = "0.10"
+typenum = "1"
+aes = "0.8"
+base64 = "0.22"
+colored = "3"
+indicatif = "0.17"
+dialoguer = "0.11"
+arboard = "3"
+eframe = "0.31"
+wry = "0.49"
+raw-window-handle = "0.6"
+open = "5"
+zip = "2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+gtk = "0.18"
+winit = "0.30"
+x11-dl = "2"
+
+[[bin]]
+name = "get-links"
+path = "src/bin/get_links.rs"
+
+[[bin]]
+name = "download"
+path = "src/bin/download.rs"
+
+[[bin]]
+name = "Ffast-auto-downloader"
+path = "src/main.rs"
