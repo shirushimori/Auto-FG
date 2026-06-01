@@ -57,7 +57,7 @@ cargo run --release
 
 ## how to use
 
-### gui mode
+### gui
 
 1. run `cargo run --release`
 2. go to **get links** tab — paste a fitgirl url or dump links manually
@@ -66,7 +66,7 @@ cargo run --release
 5. go to **downloads** tab and click "download it"
 6. once done, go to **extractor** tab and click "extract all"
 
-### cli mode
+### cli 
 
 ```bash
 # interactive link picking
