@@ -1,2 +1,7 @@
 /target
 downloads/
+pkg/
+src/
+*.tar.gz
+*.pkg.tar.zst
+.SRCINFO
