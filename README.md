@@ -16,7 +16,11 @@ just a lil tool to grab fitgirl repacks from fuckingfast.co links without losing
 
 ## screenshots
 
-![screenshot](assets/imgs/screenshort.jpg)
+![home](assets/img/Screenshot_home.png)
+![scrape](assets/img/Screenshort_scrape.png)
+![downloading](assets/img/screenshort_downloading.png)
+![extract](assets/img/Screenshot_Extract.png)
+![about](assets/img/Screenshot_about.png)
 
 ## dependencies
 
