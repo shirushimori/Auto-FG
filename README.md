@@ -122,7 +122,7 @@ src/
 
 ## license
 
-mit. see [license](https://github.com/shirushimori/Auto-FG/edit/main/LICENSE) if you care.
+mit. see [license](https://github.com/shirushimori/Auto-FG?tab=MIT-1-ov-file) if you care.
 
 ## disclaimer
 
