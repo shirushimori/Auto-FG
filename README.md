@@ -45,6 +45,15 @@ yay -S auto-fg
 paru -S auto-fg
 ```
 
+### any linux (appimage)
+
+download from the [releases page](https://github.com/shirushimori/Auto-FG/releases):
+
+```bash
+chmod +x Auto-FG-x86_64.AppImage
+./Auto-FG-x86_64.AppImage
+```
+
 ### windows
 
 ```cmd
