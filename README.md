@@ -27,6 +27,8 @@ just a lil tool to grab fitgirl repacks from fuckingfast.co links without losing
 ### linux
 
 ```bash
+mkdir Applications
+cd Applications
 git clone https://github.com/shirushimori/Auto-FG
 cd Auto-FG
 chmod +x setup.sh && ./setup.sh
