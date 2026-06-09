@@ -103,7 +103,7 @@ cargo run --release --bin download
 ```
 src/
 ├── bin/
-│   ├── get_links.rs      # cli link scraper
+│   ├── get_links.rs       # cli link scraper
 │   └── download.rs        # cli downloader
 ├── lib.rs                 # core: scraping, decryption, downloading
 ├── main.rs                # gui (eframe/egui)
